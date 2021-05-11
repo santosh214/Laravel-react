@@ -2,13 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Footer from './Footer';
 import Header from './Header'
+import Sidebar from './Sidebar';
 function Main() {
     return (
-        <div className="container">
+        <div className="container-fluid">
             <div className="row">
-                <div className="col-4">
+
+
+                <div className="col">
                     <Header />
+                    <Sidebar />
                     <Footer />
+
                 </div>
 
             </div>
