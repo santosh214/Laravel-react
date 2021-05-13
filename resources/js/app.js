@@ -11,4 +11,7 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-require('./components/Main');
+
+ import 'bootstrap/dist/css/bootstrap.min.css';
+// require('./components/Demo/Main');
+require('./components/Dashboard/App');
