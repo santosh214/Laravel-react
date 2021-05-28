@@ -14,4 +14,4 @@ require('./bootstrap');
 
  import 'bootstrap/dist/css/bootstrap.min.css';
 // require('./components/Demo/Main');
-require('./components/Dashboard/App');
+require('./components/Dasboard2/App');

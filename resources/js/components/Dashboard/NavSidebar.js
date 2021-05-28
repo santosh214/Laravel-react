@@ -136,7 +136,7 @@ dark(!light);
                     </div> */}
 
                 </div>
-                <Route path="/home" component={BodyContent}></Route>
+                {/* <Route path="/home" component={BodyContent}></Route>
                 <Route path="/login" component={Login}></Route>
                 <Route path="/register" component={Register}></Route>
                 <Route path="/forgot-password" component={ForgotPassword}></Route>
@@ -145,7 +145,7 @@ dark(!light);
                 <Route path="/500" component={FiveZeroZero}></Route>
                 <Route path="/tables" component={Tables}></Route>
                 <Route path="/charts" component={Charts}></Route>
-                <Route path="/static-content" component={StaticNavigation}></Route>
+                <Route path="/static-content" component={StaticNavigation}></Route> */}
 
             </div>
         </Router>
