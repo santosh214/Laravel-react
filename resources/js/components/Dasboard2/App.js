@@ -4,7 +4,7 @@ import './App.css';
 import { HashRouter as Router, Route,Switch,NavLink } from "react-router-dom";
 import components from './DyanmicComponentData'
 import NavSidebar from './NavSidebar';
-import Table from '../Tables/Grid/Table';
+import Table from '../Tables/Tabulator/Table';
  export default function App() {
 
 
@@ -14,6 +14,7 @@ import Table from '../Tables/Grid/Table';
         <Router>
 
             <div className="App">
+{/* <Table /> */}
                     <NavSidebar />
 
                     {

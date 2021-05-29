@@ -119,6 +119,14 @@ function NavSidebar() {
                                     <div className="sb-nav-link-icon"><i className="fas fa-table"></i></div>
                                 Grid Table
                             </NavLink>
+                            <NavLink className="nav-link" to="/tabulator">
+                                    <div className="sb-nav-link-icon"><i className="fas fa-table"></i></div>
+                                Tabulator
+                            </NavLink>
+                            <NavLink className="nav-link" to="/materialUi">
+                                    <div className="sb-nav-link-icon"><i className="fas fa-table"></i></div>
+                                Material UI
+                            </NavLink>
                             </div>
                         </div>
                         <div className="sb-sidenav-footer">

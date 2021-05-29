@@ -10,7 +10,7 @@ export default function Table() {
         fetch('https://jsonplaceholder.typicode.com/users')
   .then(response => response.json())
   .then(json => setData(json))
-    })
+    },[])
       const columns = [
         { title: "Id", field: "id"},
         { title: "Name", field: "name"},
@@ -37,9 +37,12 @@ export default function Table() {
                 search:true,
                 filtering:true,
                 paging:true,
-                exportButton:true
+                exportButton:true,
+                actionsColumnIndex: -1
             }}
-            actions={actions} />
+            actions={actions}
+            
+            />
         </div>
         </div>
         </div>

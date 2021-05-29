@@ -7,6 +7,7 @@ const BodyContent=lazy(()=>import(/*webpackChunkName: 'Charts' */ "./BodyContent
 const StaticNavigation=lazy(()=>import(/*webpackChunkName: 'Charts' */ "./StaticNavigation"))
 const Material=lazy(()=>import(/*webpackChunkName: 'Charts' */ "../Tables/Material/Table"))
 const Grid=lazy(()=>import(/*webpackChunkName: 'Charts' */ "../Tables/Grid/Table"))
+const Tabulator=lazy(()=>import(/*webpackChunkName: 'Charts' */ "../Tables/Tabulator/Table"))
 
 
 let components=[
@@ -36,7 +37,7 @@ let components=[
 },
 {
     "id":"5",
-    "title":"Materil",
+    "title":"Material",
     "components":Material,
     "route":"/material"
 },
@@ -46,5 +47,12 @@ let components=[
     "components":Grid,
     "route":"/grid"
 },
+{
+    "id":"7",
+    "title":"Tabulator",
+    "components":Tabulator,
+    "route":"/tabulator"
+},
+
 ]
 export default components;
