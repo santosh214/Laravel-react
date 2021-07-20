@@ -123,9 +123,9 @@ function NavSidebar() {
                                     <div className="sb-nav-link-icon"><i className="fas fa-table"></i></div>
                                 Tabulator
                             </NavLink>
-                            <NavLink className="nav-link" to="/materialUi">
+                            <NavLink className="nav-link" to="/react-table">
                                     <div className="sb-nav-link-icon"><i className="fas fa-table"></i></div>
-                                Material UI
+                                React-table
                             </NavLink>
                             </div>
                         </div>

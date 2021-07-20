@@ -8,6 +8,7 @@ const StaticNavigation=lazy(()=>import(/*webpackChunkName: 'Charts' */ "./Static
 const Material=lazy(()=>import(/*webpackChunkName: 'Charts' */ "../Tables/Material/Table"))
 const Grid=lazy(()=>import(/*webpackChunkName: 'Charts' */ "../Tables/Grid/Table"))
 const Tabulator=lazy(()=>import(/*webpackChunkName: 'Charts' */ "../Tables/Tabulator/Table"))
+const ReactTable=lazy(()=>import(/*webpackChunkName: 'Charts' */ "../Tables/MaterialUi/Table"))
 
 
 let components=[
@@ -52,6 +53,12 @@ let components=[
     "title":"Tabulator",
     "components":Tabulator,
     "route":"/tabulator"
+},
+{
+    "id":"8",
+    "title":"React-table",
+    "components":ReactTable,
+    "route":"/react-table"
 },
 
 ]
